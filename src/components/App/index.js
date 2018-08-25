@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
+
 import './App.css';
-import Intro from '../Intro';
-import Series from '../../containers/Series'
+// import Series from '../../containers/Series'
+import Main from '../Main'
 
 class App extends Component {
 
@@ -14,10 +14,8 @@ class App extends Component {
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">Tv Series list</h1>
-        </header>
-        <Intro message="Here you can find all of your most loved series"/>
-       
-        <Series />
+        </header>       
+        <Main />
       </div>
     );
   }
